@@ -1,0 +1,204 @@
+---
+metadata:
+  rights: "Gregor"
+  image: "cover.png"
+  title: "Cloud Computing"
+  subtitle: "Proceedings Fall 2019, Spring 2020"
+  author: 'Gregor von Laszewski'
+  subauthor: "Editor"
+  email: "laszewski@gmail.com"
+  url: "https://github.com/cyberaide/bookmanager"
+  description: "Book creator"
+  abstract: "my abstract"
+  keywords: "pandoc"
+  stylesheet: "epub.css"
+  dest: "dest/book"
+  filename: "vonLaszewski-516-sp20.epub"
+git:
+  "cloudmesh": "https://raw.githubusercontent.com/cloudmesh/"
+  "com": "https://raw.githubusercontent.com/cloudmesh-community"
+  "book": "https://raw.githubusercontent.com/cloudmesh-community/book/master/chapters"
+  "proceedings": "https://raw.githubusercontent.com/cloudmesh-community/proceedings/master/sp19-516/"
+  "umaa": "https://raw.githubusercontent.com/cloudmesh-community/hid-sp18-710/master"
+  "umab": "https://raw.githubusercontent.com/cloudmesh-community/hid-sp18-709/master"
+  "bookmanager": "https://raw.githubusercontent.com/cyberaide/bookmanager/master/bookmanager/template"
+  "julia": "https://raw.githubusercontent.com/cloudmesh-community/book/master/chapters/prg/julia/"
+BOOK:
+#############################
+#  - NOT_INCLUDED:
+#  google big query
+#    - "{git.com}/fa19-516-168/master/project/report.md"
+#  Databases in clouds
+#    - "{git.com}/fa19-516-141/master/project/report.md"
+#############################
+#  - REJECTED:
+#  - "{git.com}/sp20-516-237/master/chapter/k8-scheduling-pods.md"
+#     - HADOOP_PI_REJECT:
+#       - "{git.com}/fa19-516-158/master/project/report.md"
+#
+#  - JULIA:
+#    - "{git.julia}/julia-language.md"
+#    - "{git.julia}/julia-install.md"
+#    - "{git.julia}/julia-ide.md"
+#    - "{git.julia}/julia-modules.md"
+#    - "{git.julia}/julia-docopts.md"
+#    - "{git.julia}/julia-external.md"
+#    - "{git.julia}/julia-parallel.md"
+#    - "{git.julia}/julia-aws.md"
+#    - "{git.julia}/julia-rest.md"
+#    - "{git.julia}/julia-network.md"
+#    - "{git.julia}/julia-opttype.md"
+##  hot cold ile datacenter
+#    - "{git.com}/book/master/chapters/cloud/datacenter.md"
+#
+#  - IoT:
+# Google coral
+#    - "{git.com}/sp20-516-234/master/chapter/google-coral-edge-accel.md"
+  - PREFACE:
+    - "{git.bookmanager}/disclaimer-short.md"
+#    - "{git.proceedings}/contributors.md"
+#    - "{git.proceedings}/projects.md"
+#    - "{git.proceedings}/sections.md"
+#    - "{git.proceedings}/chapters.md"
+#  - SECTIONS:
+#    - "{git.com}/sp19-516-127/master/hpc-section.md"
+#    - "{git.com}/sp19-516-129/master/iso27k.md"
+#  - CHAPTERS:
+#    - "{git.com}/hid-sp18-602/master/paper/paper.md"
+#    - "{git.com}/sp19-616-111/master/section-code/aws-sagemaker.md"
+#    - "{git.com}/sp19-516-121/master/scala.md"
+#  - PROJECTS:
+#    - "{git.com}/fa18-516-08/master/project-report/report.md"
+#    - "{git.umaa}/project-report/report.md"
+#    - "{git.com}/hid-sp18-523/master/project-report/report.md"
+#  - AI_CLOUD_PROVIDERS
+##  salesforce
+#    - "{git.com}/sp20-516-224/master/chapter/ai-salesforce.md"
+  - PI:
+#  FIX NEEDED pi burn v1
+     - "{git.com}/fa19-516-148/master/project/report.md"
+  - PI_MANUAL1:
+     - "https://github.com/cloudmesh/cloudmesh-pi-burn/blob/master/README.md"
+  - PI_MANUAL2:
+     - "https://github.com/cloudmesh/cloudmesh-pi-burn/blob/master/paper/vonLaszewski-cmburn.md"
+  - PI_SPARK_CLUSTER:
+     - "{git.com}/sp20-516-246/master/pi_spark/pi_spark_notebook.md"
+     - "{git.com}/fa19-516-153/master/project/report.md"
+  - COMPUTE_PROJECTS:
+##  oracle compute
+    - "{git.com}/fa19-516-162/master/project/report.md"
+#  google cloud platform
+    - "{git.com}/fa19-516-169/master/project/report.md"
+  - STORAGE_PROJECTS:
+##  cloudmesh storage
+    - "{git.com}/fa19-516-171/master/project/report.md"
+#  fix images
+    - "{git.com}/fa19-516-160/master/project/report.md"
+##  Cloudmesh Storage Copy Provider for Virtual Directories between AWS and Google
+    - "{git.com}/fa19-516-152/master/project/report.md"
+##  cloudmesh transfer
+    - "{git.com}/fa19-516-155/master/project/report.md"
+##  storage lifecycle
+    - "{git.com}/fa19-516-167/master/project/cloudmesh-storagelifecycle/README.md"
+  - DATABASE_PROJECTS:
+#   nosql
+    - "{git.umaa}/paper/paper.md"
+##  nist database
+    - "{git.com}/fa19-516-147/master/project/report.md"
+  - SCHEDULING_PROJECTS:
+##  frugal vs compute:
+    - "{git.com}/fa19-516-166/master/project/report.md"
+  - AI_PROJECTS:
+##  cloudmesh ai service v1
+    - "{git.com}/fa19-516-151/master/project/report.md"
+  - SECURITY_PROJECTS:
+##  cloudmesh encryption
+    - "{git.com}/fa19-516-144/master/project/report.md"
+#  group key management
+    - "{git.com}/fa19-516-172/master/project/report.md"
+  - BENCHMARKS:
+##  compute benchmark
+    - "{git.com}/sp20-516-245/master/Project/project_report.md"
+##  aws ec2 project
+##  benchmarks
+    - "{git.com}/fa19-516-157/master/project/report.md"
+  - CHAPTER_CLOUDMESH:
+##  Conda Installation
+    - "{git.cloudmesh}/inactive-cloudmesh-conda/master/README.md"
+##  No longer maintained as in python 3 installation with pip is easy enough
+##  Cloudmesh emr/spark
+    - "{git.com}/book/master/chapters/mapreduce/spark.md"
+  - CHAPTER_KUBERNETES:
+#  k8 scheduling
+    - "{git.com}/sp20-516-231/master/chapter/k8-scheduler.md"
+    - "{git.com}/sp20-516-232/master/chapter/k8-advanced-scheduling.md"
+##  ibm kubernetes
+    - "{git.com}/sp20-516-230/master/chapter/ibm-kubernetes.md"
+  - CHAPTER_CLOUD_PROVIDER_TECHNOLOGIES:
+#  pyazure replaced by our own implementation
+    - "{git.com}/sp19-516-136/master/project-report/report.md"
+  - CHAPTER_CLOUD_STORAGE:
+##  Box:
+    - "{git.com}/book/master/chapters/in/box.md"
+  - CHAPTER_CLOUD_DATABASE:
+##  aws document db
+    - "{git.com}/book/master/chapters/in/aws-documentdb.md"
+##  AWS AuroraDB
+    - "{git.com}/book/master/chapters/in/aws-auroradb.md"
+  - CHAPTER_CLOUD_PAAS:
+##  Spark
+    - "{git.com}/book/master/chapters/mapreduce/spark.md"
+    ##  Python OpenFaaS
+    - "{git.com}/book/master/chapters/faas/openfaas.md"
+  - CHPATER_CLOUD_AI:
+#  cloud ai
+    - "{git.com}/fa19-516-147/master/project/reportcloudai.md"
+#  incomplete
+#  AWS Sagemaker Ground Truth
+    - "{git.com}/sp20-516-250/master/chapter/aws-sagemaker-groundtruth.md"
+#  some skikit rANDOM FOREST
+#   -"{git.com}/fa19-516-174/master/project/report.md"
+#  amazon polly
+    - "{git.com}/sp20-516-236/master/chapter/ai-aws-polly.md"
+#  aws comprehend
+    - "{git.com}/sp20-516-227/master/chapter/ai-aws-comprehend.md"
+#  ai aws forecast
+    - "{git.com}/sp20-516-255/master/chapter/ai-aws-forecast.md"
+#  aws recognin
+    - "{git.com}/sp20-516-253/master/chapter/ai-aws-rekognition.md"
+#  google video
+    - "{git.com}/sp20-516-235/master/chapter/ai-google-video.md"
+#  ai ibm
+    - "{git.com}/sp20-516-230/master/chapter/ai-ibm-overview.md"
+#  ai azure
+    - "{git.com}/sp20-516-243/master/chapter/ai-azure-overview.md"
+##  oracle
+    - "{git.com}/sp20-516-229/master/chapter/ai-oracle-overview.md"
+    - "{git.com}/sp20-516-229/master/chapter/ai-oracle-machine-learning.md"
+##  ai cognitive
+    - "{git.com}/sp20-516-243/master/chapter/ai-azure-cognitiveservices.md"
+##  ai cloud overview
+    - "{git.com}/sp20-516-246/master/chapter/ai-cloud-services.md"
+    - "{git.com}/sp20-516-246/master/chapter/ai-services-overview-rkf.md"
+##  old pytorch
+    - "{git.com}/fa18-523-57/master/paper/paper.md"
+##  Artificial Intelligence Service with REST
+    - "{git.com}/book/master/chapters/in/ai-rest.md"
+##  AWS Beanstalk
+    - "{git.com}/book/master/chapters/in/aws-elasticbeanstalk.md"
+  - CHAPTER_PYTHON:
+##  Python Numpy
+    - "{git.com}/book/master/chapters/prg/python/numpy/numpy.md"
+##  skikit learn
+    - "{git.com}/book/master/chapters/prg/python/scikit-learn/scikit-learn.md"
+##  Python XML
+##  Python beautiful soap
+    - "{git.com}/book/master/chapters/prg/python/python-data.md"
+  - CHAPTER_LINUX:
+##  chmod:
+    - "{git.com}/book/master/chapters/linux/linux.md"
+  - APPENDIX:
+    - "{git.bookmanager}/disclaimer.md"
+#    - "{git.book}/preface/notation.md"
+  - REFERENCES:
+    - "{git.bookmanager}/disclaimer-references.md"
